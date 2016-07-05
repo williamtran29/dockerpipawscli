@@ -2,5 +2,5 @@ FROM alpine:latest
 
 RUN \
   apk update && \
-  apk add python py-pip && \
+  apk add git python py-pip && \
   pip install awsebcli
